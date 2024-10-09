@@ -13,7 +13,7 @@ body {
 }
 
 .fundo-white {
-    
+    background-color: #ffffff;
 }
 
 .titulo {
@@ -52,3 +52,8 @@ body {
     justify-content: center;
 }
 
+@media (max-width: 500px) {
+    .titulo {
+        font-size: 2em;
+    }
+}
