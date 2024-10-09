@@ -46,7 +46,7 @@ body {
 }
 
 .container__section {
-    height: 90vh;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,5 +55,8 @@ body {
 @media (max-width: 500px) {
     .titulo {
         font-size: 2em;
+    }
+    .container__section {
+        height: 60vh;
     }
 }
